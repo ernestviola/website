@@ -2,6 +2,8 @@
   <div id="app">
     <vsd-header title="Vue San Diego"/>
 
+    <router-view />
+
   <!-- Masthead -->
   <header class="masthead">
     <div class="container h-100">
@@ -194,11 +196,6 @@
       <div class="small text-center text-muted">Copyright &copy; 2019 - Start Bootstrap</div>
     </div>
   </footer>
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view /> -->
   </div>
 </template>
 
