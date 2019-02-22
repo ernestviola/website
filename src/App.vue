@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <vsd-header />
-    <vsd-header />
+    <vsd-header title="Vue San Diego"/>
+
   <!-- Masthead -->
   <header class="masthead">
     <div class="container h-100">
