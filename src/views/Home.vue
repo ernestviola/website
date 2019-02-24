@@ -1,14 +1,13 @@
 <template>
   <div class="home">
-    <img
-      alt="Vue logo"
-      src="../assets/logo.png"
-    />
+    <img alt="Vue logo" src="../assets/logo.png" />
 
     <!-- Masthead -->
     <header class="masthead">
       <div class="container h-100">
-        <div class="row h-100 align-items-center justify-content-center text-center">
+        <div
+          class="row h-100 align-items-center justify-content-center text-center"
+        >
           <div class="col-lg-10 align-self-end">
             <h1 class="text-uppercase text-white font-weight-bold">
               Your Favorite Source of Free Bootstrap Themes
@@ -21,20 +20,14 @@
               Bootstrap framework! Just download a theme and start customizing,
               no strings attached!
             </p>
-            <a
-              class="btn btn-primary btn-xl"
-              href="#about"
-            >Find Out More</a>
+            <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
           </div>
         </div>
       </div>
     </header>
 
     <!-- Services Section -->
-    <section
-      class="page-section"
-      id="services"
-    >
+    <section class="page-section" id="services">
       <div class="container">
         <h2 class="text-center mt-0">At Your Service</h2>
         <hr class="divider my-4" />
@@ -84,10 +77,7 @@
       <div class="container-fluid p-0">
         <div class="row no-gutters">
           <div class="col-lg-4 col-sm-6">
-            <a
-              class="portfolio-box"
-              href="img/portfolio/fullsize/1.jpg"
-            >
+            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
               <img
                 class="img-fluid"
                 src="img/portfolio/thumbnails/1.jpg"
@@ -104,10 +94,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a
-              class="portfolio-box"
-              href="img/portfolio/fullsize/2.jpg"
-            >
+            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
               <img
                 class="img-fluid"
                 src="img/portfolio/thumbnails/2.jpg"
@@ -124,10 +111,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a
-              class="portfolio-box"
-              href="img/portfolio/fullsize/3.jpg"
-            >
+            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
               <img
                 class="img-fluid"
                 src="img/portfolio/thumbnails/3.jpg"
@@ -144,10 +128,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a
-              class="portfolio-box"
-              href="img/portfolio/fullsize/4.jpg"
-            >
+            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
               <img
                 class="img-fluid"
                 src="img/portfolio/thumbnails/4.jpg"
@@ -164,10 +145,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a
-              class="portfolio-box"
-              href="img/portfolio/fullsize/5.jpg"
-            >
+            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
               <img
                 class="img-fluid"
                 src="img/portfolio/thumbnails/5.jpg"
@@ -184,10 +162,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a
-              class="portfolio-box"
-              href="img/portfolio/fullsize/6.jpg"
-            >
+            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
               <img
                 class="img-fluid"
                 src="img/portfolio/thumbnails/6.jpg"
