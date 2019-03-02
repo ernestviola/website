@@ -1,5 +1,5 @@
 <template>
-  <nav class="vsd-header navbar navbar-expand-lg navbar-light fixed-top py-3">
+  <nav class="vsd-header navbar navbar-expand-lg navbar-light py-3">
     <div class="container">
       <router-link to="/" class="navbar-brand">{{ title }}</router-link>
       <button
