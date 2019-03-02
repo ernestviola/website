@@ -1,7 +1,9 @@
 <template>
   <nav class="vsd-header navbar navbar-expand-lg navbar-light py-3">
     <div class="container">
-      <router-link to="/" class="navbar-brand">{{ title }}</router-link>
+      <router-link to="/" class="navbar-brand">
+        <img src="static/logo.png" alt="Vue San Diego">
+      </router-link>
       <button
         class="navbar-toggler navbar-toggler-right"
         type="button"
@@ -16,9 +18,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item">
-            <router-link :to="{ name: 'about' }" class="nav-link"
-              >About</router-link
-            >
+            <router-link :to="{ name: 'about' }" class="nav-link">About</router-link>
           </li>
         </ul>
       </div>
@@ -38,7 +38,7 @@ export default {
 </script>
 
 <style>
-.vsd-header {
-  background: grey;
+.navbar-brand {
+  width: 150px;
 }
 </style>
