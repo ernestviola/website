@@ -1,42 +1,37 @@
 <template>
-  <div id="app">
-    <vsd-header title="Vue San Diego"/>
+  <div class="vsd-root">
+    <VsdHeader title="Vue San Diego" />
 
-    <router-view />
+    <router-view class="vsd-content" />
 
-    <!-- Footer -->
     <VsdFooter />
   </div>
 </template>
 
 <script>
-import VsdHeader from '@/components/root/Header'
-import VsdFooter from '@/components/root/Footer'
+import VsdHeader from "@/components/root/Header";
+import VsdFooter from "@/components/root/Footer";
 
 export default {
   components: {
     VsdHeader,
     VsdFooter
+  },
+
+  errorCaptured(error, component, info) {
+    console.log("An error occured:\n", error, component, info);
   }
-}
+};
 </script>
 
 <style lang="scss">
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+.vsd-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+
+.vsd-content {
+  flex-grow: 1;
 }
 </style>
